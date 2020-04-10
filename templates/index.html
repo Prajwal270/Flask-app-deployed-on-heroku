@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+<h1>Its the first heading</h1>
+<a href="https://atno.in/about.php">about</a>
+<div class="form1">
+    <form action="/predict" method="post">
+
+        <input type="text" name="first" placeholder="first" required>
+        <input type="text" name="second" placeholder="second" required>
+        <input type="text" name="third" placeholder="third" required>
+        <input type="text" name="forth" placeholder="forth" required>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</div>
+{{f}}
+<br>
+{{s}}
+<br>
+{{t}}
+<br>
+<hr>
+{{r}}
+<br>
+{{h}}
+</body>
+</html>
